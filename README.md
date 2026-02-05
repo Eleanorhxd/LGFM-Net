@@ -1,12 +1,5 @@
 # LGFM-Net: Local-Global Feature Mixing Network for Radiology Report Generation
 
-## Highlight
-
-- A novel radiology report generation framework for radiology report generation, which jointly captures fine-grained lesion cues and comprehensive anatomical context.
-- The Local Feature Encoder utilizes content-adaptive dynamic convolution to adaptively enhance spatially relevant pathological features, thereby improving the model’s sensitivity to subtle anatomical variations and low-contrast lesions.
-- The Global Context Encoder leverages a top-K token filtering strategy combined with relative positional encoding to effectively capture long-range contextual dependencies while maintaining the integrity of clinically significant structural information.
-
-
 ## Requirements
 - `Python >= 3.6`
 - `Pytorch >= 1.7`
